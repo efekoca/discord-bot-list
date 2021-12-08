@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+    overflow: hidden;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  background: #2d3436;
+}
+
+.text-input{
+  border: 2.2px solid #0984e3;
+  padding: 6px;
+  border-radius: 8px;
+  outline: none;
+  background: #81ecec;
+  color: #0984e3;
+}
+button{
+ border: none;
+ display: block;
+ position: relative;
+ padding: 0.7em 2.4em;
+ font-size: 12px;
+ background: transparent;
+ cursor: pointer;
+ user-select: none;
+ overflow: hidden;
+ color: royalblue;
+ z-index: 1;
+ font-family: inherit;
+ font-weight: 500;
+}
+
+button span{
+ position: absolute;
+ left: 0;
+ top: 0;
+ width: 100%;
+ height: 100%;
+ background: transparent;
+ z-index: -1;
+ border: 4px solid royalblue;
+}
+
+button span::before{
+ content: "";
+ display: block;
+ position: absolute;
+ width: 8%;
+ height: 400%;
+ background: var(--lightgray);
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%) rotate(-60deg);
+ transition: all 0.3s;
+}
+
+button:hover span::before{
+ transform: translate(-50%, -50%) rotate(-90deg);
+ width: 100%;
+ background: royalblue;
+}
+
+button:hover{
+ color: white;
+}
+
+button:active span::before{
+ background: #2751cd;
+}

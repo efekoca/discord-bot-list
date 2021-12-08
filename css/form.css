@@ -1,0 +1,28 @@
+.sub{
+    padding: 10px;
+    height: 38px;
+    outline: none;
+    border: none;
+    border: 1px solid white;
+    border-radius: 4px 3px 4px 3px;
+    box-shadow: 2px 3px #e6e6e6;
+}
+.sub:hover{
+    border: 1px solid #000000;
+    background: #A5F8FF;
+    color: #000000;
+    cursor: pointer;
+}
+.inp{
+    border: none;
+    outline: none;
+    background: none !important;
+    width: 290px;
+    height: 38px;
+    border: solid 2px #747d8c;
+    border-radius: 4px 2px 4px 2px;
+    padding: 3px 2px;
+    box-shadow: 1.3px 4px 3px;
+    transition: 0.2s ease-in-out;
+    text-align: center;
+}

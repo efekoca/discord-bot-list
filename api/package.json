@@ -1,0 +1,17 @@
+{
+  "name": "hello-express",
+  "main": "client.js",
+  "scripts": {
+    "start": "node client.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "express": "^4.17.1",
+    "graceful-fs": "^4.2.4",
+    "moment": "^2.27.0",
+    "moment-duration-format": "^2.2.2"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
