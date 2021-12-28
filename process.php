@@ -14,8 +14,8 @@ ini_set('display_startup_errors', 1);
 ini_set('max_execution_time', 300);
 error_reporting(E_ALL);
 
-define('OAUTH2_CLIENT_ID', '712682720664355109'); // OAUTH2 CLIENT ID for your bot.
-define('OAUTH2_CLIENT_SECRET', '58Cz2Bh17w1i5MbQogGMelVu4tyoac0D'); // OAUTH2 CLIENT SECRET TOKEN for your bot.
+define('OAUTH2_CLIENT_ID', ''); // OAUTH2 CLIENT ID for your bot.
+define('OAUTH2_CLIENT_SECRET', ''); // OAUTH2 CLIENT SECRET TOKEN for your bot.
 
 $tokenURL = 'https://discord.com/api/oauth2/token';
 $apiURLBase = 'https://discord.com/api/users/@me';
